@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NYT Search</title>
+
+    <!-- Our own CSS Sheet -->
+    <link rel="stylesheet" href="assets\nyt-search.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- CSS Reset Sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Icons Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase%7CPermanent+Marker%7CUbuntu%7CVarela+Round"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="jumbotron jumbotron-fluid" id="css-jumbo">
+        <div class="container">
+            <h1 class="display-4" id="head"><i class="fa" id="newspaper-icon">&#xf1ea; New York Times Search</i></h1>
+        </div>
+    </div>
+
+    <div class="card" style="width: 0 auto;">
+        <div class="card-body">
+            <h5 class="card-title"><i class="fa" id="search-icon">&#xf1ea; Search Parameters</i></h5>
+            <form>
+                <div class="form-group">
+                    <label for="Search-Term">Search Term:</label>
+                    <input type="text" class="form-control" id="search-term">
+                </div>
+                <div class="form-group">
+                    <label for="number-of-records-to-retrieve">Number of Records to Retrieve:</label>
+                    <input type="password" class="form-control" id="recordsToRetrieve">
+                </div>
+                <div class="form-group">
+                    <label class="start-year">Start Year (Optional):</label>
+                    <input type="text" class="form-control" id="start-year">
+                </div>
+                <div class="form-group">
+                    <label class="end-year">End Year (Optional):</label>
+                    <input type="text" class="form-control" id="end-year">
+                </div>
+                <button type="submit" class="btn btn-primary" id="search-button">Search</button>
+                <button type="submit" class="btn btn-primary">Clear</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card" style="width: 0 auto;">
+        <div class="card-body">
+            <h5 class="card-title"><i class="fa" id="search-icon">&#xf1ea; Top Articles</i></h5>
+            <div class="articles">Articles populate here</div>
+        </div>
+    </div>
+
+    <div class="footer">Made by Amanuel & Loann</footer>
+    <script type="text/javascript" src="C:\Users\Loann\Desktop\nyt-search.js"></script>
+</body>
+
+</html>

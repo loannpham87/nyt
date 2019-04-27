@@ -1,0 +1,39 @@
+#newspaper-icon {
+   font-size:48px;
+    color: white;
+    text-align: center;
+
+}
+
+#head {
+    font-size:48px;
+    color: white;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    padding: 0 auto;
+ 
+}
+
+
+#css-jumbo {
+    
+    background-color: darkblue;
+
+}
+
+.card-title {
+border-bottom: 2px solid gray;
+background-color: lightgrey
+
+}
+
+#search-icon {
+padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
