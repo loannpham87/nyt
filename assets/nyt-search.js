@@ -4,8 +4,8 @@
     function search(srchP){
  //create an AJAX call method  for specific button being clicked
  var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q="
-                 + srchP + "&api-key=1XvkJESOHTvv8e6dDRwJliRGiAAPUSkQ"
-    $.ajax({
+ + srchP + "&api-key=1XvkJESOHTvv8e6dDRwJliRGiAAPUSkQ"    
+  $.ajax({
         url: queryURL,
         method: "GET"
       }).then(function(response) {
@@ -23,9 +23,10 @@
     // Creates data to have the  displayed
     
     }
-   search(search_value);
-   $('#search-term').on('submit', function(event){
+   $('form').on('submit', function(event){
     event.preventDefault()
+    console.log("submit")
+    search_value = $("#search-term").val()
     search(search_value);
    })
    
