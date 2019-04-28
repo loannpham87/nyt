@@ -19,8 +19,8 @@
             console.log(data[i].source)
     }
       });
-    
-    // Creates data to have the  displayed
+    //need back end code to populate articles here
+    $(".articles")
     
     }
    $('form').on('submit', function(event){
